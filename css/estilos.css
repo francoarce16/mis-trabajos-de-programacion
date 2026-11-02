@@ -6,7 +6,7 @@ background-attachment: fixed;text-align: center;
 h1 {color: #3ED6B5;text-decoration: underline;}
 
 .verde{color: green;
-background-color: yellow; text-decoration: underline
+background-color: blue; text-decoration: underline
 
 }
 .rojo{color: red;}
@@ -19,3 +19,7 @@ h1 {
     font-weight: normal;
     text-transform: uppercase;
 }
+
+h1:hover {color: red;background-color: #BD2A0D;}
+header { background-color:#8C8888;}
+header {display: flex; justify-content:center;}
