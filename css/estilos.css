@@ -1,13 +1,11 @@
-body { background-image: url(https://media.gettyimages.com/id/1551595837/es/vector/boceto-de-pizza-sin-costuras-sobre-fondo-negro.jpg?s=612x612&w=gi&k=20&c=WHgUo9CBH3k5J_9R6lGiDA-wNfhK4CGyI7_dTKpuZSE=);
+body { background-image:url(https://media.istockphoto.com/id/2173000363/es/vector/fondo-de-pantalla-de-rebanadas-de-pizza-sin-costuras.jpg?s=612x612&w=0&k=20&c=fOHLrjvJ2IR0KU9WMr9AEexv9yUT9FAIhSrazkF4REc=);
 background-attachment: fixed;
 }
 
 
-body {
-    background-image: url(https://media.gettyimages.com/id/1551595837/es/vector/boceto-de-pizza-sin-costuras-sobre-fondo-negro.jpg?s=612x612&w=gi&k=20&c=WHgUo9CBH3k5J_9R6lGiDA-wNfhK4CGyI7_dTKpuZSE=);
-    background-attachment: fixed;
-    text-align: center;
-}
+
+
+
 
 h1 {
     color: #3ED6B5;
@@ -16,7 +14,7 @@ h1 {
 
 .verde {
     color: green;
-    background-color: blue;
+    background-color: #FAE78E;
     text-decoration: underline;
 }
 
@@ -25,12 +23,12 @@ h1 {
 }
 
 .blanco {
-    color: white;
+    color: black;
 }
 
 h1 {
     font-family: 'Monoton', cursive;
-    font-size: 4rem; /* Este tipo de fuente se aprecia mejor en tamaños grandes */
+    font-size: 6rem; /* Este tipo de fuente se aprecia mejor en tamaños grandes */
     font-weight: normal;
     text-transform: uppercase;
     transition: all .5s ease-in-out;
@@ -45,7 +43,35 @@ header {
     background-color: #8C8888;
 }
 
-header {
-    display: flex;
-    justify-content: center;
+header { display: flex;justify-content: space-around;align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+    .redes{ width: 100px;
+      height: 100px;}
+
+      .logo { border-radius: 60%;}
+
+
+
+      .ingredientes {text-align: left;
+    font-size: 40px;
+    width: 40%;
+    margin-left: 30px;
+
+}
+
+
+.preparacion {  text-align: left;
+    font-size: 40px;
+    width: 100%;
+    margin-left: 30px;
+    line-height: 1.5;
+
+}
+footer {display: flex;
+  justify-content: space-around;align-items: center;
+  flex-wrap: wrap;
 }
