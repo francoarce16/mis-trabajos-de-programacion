@@ -75,7 +75,15 @@ header { display: flex;justify-content: space-around;
 
     }
 
-      .logo { border-radius: 60%;}
+      .logo { border-radius: 60%;
+            width:400px;
+            height: 400px;
+            object-fit: contain;
+            border-radius: 60%;
+        }
+
+
+      }
 
 
 
@@ -111,5 +119,3 @@ body {
     border: 0;}
     .pizzaimagen {width: 1000px;
     height: auto;}
-
-    
