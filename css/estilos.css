@@ -7,9 +7,16 @@ background-attachment: fixed;
 
 
 
-h1 {
-    color: #3ED6B5;
+h1 {  color: #3ED6B5;
     text-decoration: underline;
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+    transition: all .5s ease-in-out;
+
 }
 
 .verde {
@@ -35,38 +42,54 @@ h1 {
 }
 
 h1:hover {
-    color: red;
-    background-color: #BD2A0D;
+    color: #E0A01D;
+    background-color: #EDCD51;
 }
 
 header {
-    background-color: #8C8888;
+    background-color: #FAE78E;
+    width: 100%;
+   min-height: 110px;
+   padding: 15px 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 15px;
+
+
+
+
 }
 
-header { display: flex;justify-content: space-around;align-items: center;
+header { display: flex;justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
+
+
 }
 
 
 
-    .redes{ width: 100px;
-      height: 100px;}
+    .redes{ width: 150px;
+      height: 150px;
+
+    }
 
       .logo { border-radius: 60%;}
 
 
 
       .ingredientes {text-align: left;
-    font-size: 40px;
-    width: 40%;
+    font-size: 20px;
+    width: 20%;
     margin-left: 30px;
 
 }
 
 
 .preparacion {  text-align: left;
-    font-size: 40px;
-    width: 100%;
+    font-size: 20px;
+    width: 20%;
     margin-left: 30px;
     line-height: 1.5;
 
@@ -75,3 +98,18 @@ footer {display: flex;
   justify-content: space-around;align-items: center;
   flex-wrap: wrap;
 }
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mapa{ width: 500px;
+    height: 500px;
+    border: 0;}
+    .pizzaimagen {width: 1000px;
+    height: auto;}
+
+    
