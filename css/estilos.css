@@ -1,5 +1,7 @@
 body { background-image:url(https://media.istockphoto.com/id/2173000363/es/vector/fondo-de-pantalla-de-rebanadas-de-pizza-sin-costuras.jpg?s=612x612&w=0&k=20&c=fOHLrjvJ2IR0KU9WMr9AEexv9yUT9FAIhSrazkF4REc=);
 background-attachment: fixed;
+
+
 }
 
 
@@ -7,7 +9,7 @@ background-attachment: fixed;
 
 
 
-h1 {  color: #3ED6B5;
+h1 {  color: #242320;
     text-decoration: underline;
     font-family: 'Monoton', cursive;
     font-size: 30px;
@@ -16,11 +18,13 @@ h1 {  color: #3ED6B5;
     text-transform: uppercase;
     margin: 5px;
     transition: all .5s ease-in-out;
+    padding: 30px;
 
 }
 
 .verde {
-    color: green;
+    color:#EBB41C
+;
     background-color: #FAE78E;
     text-decoration: underline;
 }
@@ -35,10 +39,11 @@ h1 {  color: #3ED6B5;
 
 h1 {
     font-family: 'Monoton', cursive;
-    font-size: 6rem; /* Este tipo de fuente se aprecia mejor en tamaños grandes */
+    font-size: 4rem; /* Este tipo de fuente se aprecia mejor en tamaños grandes */
     font-weight: normal;
     text-transform: uppercase;
     transition: all .5s ease-in-out;
+
 }
 
 h1:hover {
@@ -83,29 +88,42 @@ header { display: flex;justify-content: space-around;
         }
 
 
-      }
+
+
+        .ingredientes {
+            font-family: 'Lobster', cursive;
+            font-size: 22px;
+            text-align: left;
+            width: 20%;
+            margin-left: 30px;
+        }
+
+        .ingredientes * {
+            font-family: 'Lobster', cursive;
+        }
 
 
 
-      .ingredientes {text-align: left;
-    font-size: 20px;
-    width: 20%;
-    margin-left: 30px;
+
+
 
 }
 
 
-.preparacion {  text-align: left;
-    font-size: 20px;
-    width: 20%;
+.preparacion {   font-family: 'Lobster', cursive;
+    font-size: 22px;
+    text-align: left;
+    width: 60%;
     margin-left: 30px;
     line-height: 1.5;
+}
+.preparacion * {
+  font-family: 'Lobster', cursive;
+    font-size: 22px;
+}
 
-}
-footer {display: flex;
-  justify-content: space-around;align-items: center;
-  flex-wrap: wrap;
-}
+
+
 body {
     margin: 0;
     padding: 15px;
@@ -114,8 +132,31 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+footer {
+  display: flex;
+  justify-content: space-around;align-items: center;
+  flex-wrap: wrap;
+}
+
+
 .mapa{ width: 500px;
     height: 500px;
     border: 0;}
     .pizzaimagen {width: 1000px;
     height: auto;}
+
+
+nav {background-color:#F5B025;
+display: flex;justify-content: space-around;
+align-items: center;
+margin-top: 50px;
+padding: 10px;
+}
+
+
+button{color:#AB720A
+;background-color: #FFDC8F;}
+
+button:hover{background-color: #F5B356
+;}
