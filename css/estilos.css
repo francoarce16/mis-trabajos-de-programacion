@@ -17,7 +17,7 @@ h1 {  color: #242320;
     text-align: center;
     text-transform: uppercase;
     margin: 5px;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
     padding: 30px;
 
 }
@@ -76,7 +76,7 @@ header { display: flex;justify-content: space-around;
 
 
     .redes{ width: 150px;
-      height: 150px;
+      height: 150px;border-radius: 60%;
 
     }
 
@@ -85,8 +85,10 @@ header { display: flex;justify-content: space-around;
             height: 400px;
             object-fit: contain;
             border-radius: 60%;
-        }
+            box-shadow: 0px 0px 15px 15px #ec731e;
 
+
+          }
 
 
 
@@ -107,7 +109,6 @@ header { display: flex;justify-content: space-around;
 
 
 
-}
 
 
 .preparacion {   font-family: 'Lobster', cursive;
@@ -117,6 +118,7 @@ header { display: flex;justify-content: space-around;
     margin-left: 30px;
     line-height: 1.5;
 }
+
 .preparacion * {
   font-family: 'Lobster', cursive;
     font-size: 22px;
@@ -156,7 +158,101 @@ padding: 10px;
 
 
 button{color:#AB720A
-;background-color: #FFDC8F;}
+;background-color: #FFDC8F;
+font-size: 25px;
+   padding: 15px 35px;
+   width: 200px;
+   height: 55px;
+
+}
 
 button:hover{background-color: #F5B356
 ;}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor general: coloca section a la izquierda y aside a la derecha */
+.contenedor-principal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  align-items: stretch;
+}
+
+/* Columna izquierda (borde beige / crema claro) */
+.section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border: 4px solid #eae2b7;
+}
+
+/* Borde naranja */
+.ingredientes {
+  min-height: 160px;
+  padding: 16px;
+  border: 4px solid #fca326;
+}
+
+/* Borde naranja */
+.preparacion {
+  min-height: 140px;
+  padding: 16px;
+  border: 4px solid #fca326;
+}
+
+/* Fila inferior dentro de section para las dos .foto */
+.fotos {
+  display: flex;
+  gap: 16px;
+}
+
+/* Borde negro */
+.foto {
+  flex: 1;
+  min-height: 100px;
+  padding: 12px;
+  border: 4px solid #000000;
+}
+
+/* Columna derecha (borde amarillo brillante) */
+.aside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  border: 4px solid #fff200;
+}
+
+/* Borde amarillo anaranjado */
+.videos {
+  flex: 1;
+  min-height: 110px;
+  padding: 12px;
+  border: 4px solid #fbc531;
+}
+
+.ingredientes {
+  width: 100%;
+  min-height: auto; /* Se adapta al contenido sin estirarse de más */
+  padding: 20px 28px; /* Más espacio interior para las viñetas */
+  border: 4px solid #fca326;
+}
+
+.ingredientes ul,
+.ingredientes ol {
+  padding-left: 20px; /* Espacio para que no se corten los puntos de la lista */
+}
+
+.ingredientes li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
